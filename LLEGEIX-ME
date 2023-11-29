@@ -1,0 +1,34 @@
+INSTRUCCIONS
+Apartat 1:
+	git branch branca00
+	git checkout branca00
+	git status
+	
+Apartat 5:
+	git checkout main
+	git status
+	git log --pretty=oneline
+	git log main..branca00 --pretty=oneline
+	
+Apartat 7:
+	git checkout branca00
+	geany Prjava02.java
+	
+Apartat 10b:
+	git merge branca00
+	
+Apartat 12:
+	git push
+	
+Apartat 14a:
+	git push --set-upstream origin branca01
+
+
+RESPOSTES:
+6: No puc veure la última linia afegida ja que el canvi s’ha fet a la branca branca00 i jo estic a la branca main.
+   
+7: Si puc veure la última linia afegida ja que el canvi s’ha fet a la branca branca00 i jo estic en aquesta branca.
+   
+12c: Només s'actualitza main ja que amb "git merge branca00" hem actualitzat main amb els canvis fets a branca00.
+	 
+14c: La branca01 está a un commit de distància de la branca main.
